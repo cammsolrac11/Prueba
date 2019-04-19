@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".CalcActivity">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:text="Calc en vista"
+        android:textSize="30dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/num1"
+        android:hint="Ingr num 1"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/num2"
+        android:hint="Ingr num 2"
+        android:inputType="number"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="suma"
+        android:onClick="suma"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="resta"
+        android:onClick="resta"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mult"
+        android:onClick="Mult"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Div"
+        android:onClick="Div"
+        />
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:id="@+id/Resul"
+        android:textSize="30dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
